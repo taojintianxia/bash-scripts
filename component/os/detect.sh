@@ -1,5 +1,6 @@
 #!/bin/bash -x
 
+## 获取当前操作系统
 function scripts::component::os::detect_os() {
   if [ "Darwin" = "$(uname)" ]; then
     echo "This is MacOS"
